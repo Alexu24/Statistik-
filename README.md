@@ -26,10 +26,7 @@ Der nächtliche Ruhepuls ist ein wichtiger Indikator für körperliche Erholung 
 
 ## 🛠 Technologien & Methoden
 
-Das Projekt wurde in **Python** (Jupyter Notebook) umgesetzt.
-
-**Verwendete Bibliotheken:**
-Das Projekt wurde in Jupyter Notebook umgesetzt. Folgende Bibliotheken kamen zum Einsatz:
+Das Projekt wurde in **Python 3** (Jupyter Notebook) umgesetzt. Folgende Bibliotheken kamen zum Einsatz:
 
 * **Datenverarbeitung:** `pandas`, `numpy`
 * **Visualisierung:** `matplotlib.pyplot`
@@ -62,10 +59,12 @@ Um das Notebook lokal auszuführen:
     ```bash
     git clone [https://github.com/DEIN_USERNAME/DEIN_REPO_NAME.git](https://github.com/DEIN_USERNAME/DEIN_REPO_NAME.git)
     ```
+
 2.  Abhängigkeiten installieren:
     ```bash
     pip install pandas numpy matplotlib prophet statsmodels cmdstanpy
     ```
+
 3.  Jupyter Notebook starten:
     ```bash
     jupyter notebook "Statistik Projekt.ipynb"
@@ -73,5 +72,13 @@ Um das Notebook lokal auszuführen:
 
 *Hinweis: Die Rohdaten (`Sleep_score.csv`) müssen im Hauptverzeichnis oder im Ordner `data/` liegen.*
 
----
-**Autor:** Alexander Leuenberger
+
+## ℹ️ Hinweis zur Nutzung von KI
+
+In diesem Projekt wurden KI-Tools (z. B. ChatGPT/Gemini) unterstützend eingesetzt für:
+* Debugging und Optimierung von Python-Code.
+* Erstellung von Textentwürfen und sprachliche Korrekturen.
+* Strukturierung der Dokumentation (README).
+Die fachliche Prüfung und Endabnahme aller Inhalte oblag mir als Autor.
+
+Alexander Leuenberger 
