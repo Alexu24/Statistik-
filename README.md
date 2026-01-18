@@ -29,10 +29,13 @@ Der nächtliche Ruhepuls ist ein wichtiger Indikator für körperliche Erholung 
 Das Projekt wurde in **Python** (Jupyter Notebook) umgesetzt.
 
 **Verwendete Bibliotheken:**
-* `pandas` & `numpy` (Datenverarbeitung)
-* `matplotlib` (Visualisierung)
-* `prophet` (Zeitreihenmodellierung & Trendanalyse)
-* `statsmodels` (Dekomposition, Autokorrelation/ACF, OLS Regression)
+Das Projekt wurde in Jupyter Notebook umgesetzt. Folgende Bibliotheken kamen zum Einsatz:
+
+* **Datenverarbeitung:** `pandas`, `numpy`
+* **Visualisierung:** `matplotlib.pyplot`
+* **Zeitreihen-Modellierung:** `prophet` (Facebook Prophet)
+* **Statistische Tests:** `statsmodels` (genutzt für OLS-Regression, ACF-Plots und Seasonal Decompose)
+* **System & Tools:** `pathlib`, `logging`, `warnings`
 
 **Analyseschritte:**
 1.  **Explorative Datenanalyse (EDA):** Gleitende Mittelwerte, Histogramme, Boxplots nach Wochentagen.
